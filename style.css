@@ -1,0 +1,98 @@
+body {
+  margin: 0;
+  background-color: #0e1730;
+  font-family: 'Jost', sans-serif;
+  color: #e6decf;
+  text-align: center;
+}
+
+.container-besar {
+  width: 100%;
+}
+
+/* Baris Atas */
+.baris-satu {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ececec;
+  font-size: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #605554;
+}
+
+.kiri {
+  padding-right: 80px;
+  height: 80px;
+  border-right: 1px solid #605554;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.kanan {
+  padding-left: 80px;
+  height: 80px;
+  border-left: 1px solid #605554;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+/* Baris Kedua */
+.baris-dua {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #605554;
+}
+
+.logo img {
+  height: 110px;
+}
+
+/* Galeri Gambar */
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.img-box {
+  width: 250px;
+  height: 350px;
+  overflow: hidden;
+  border-radius: 130px 130px 0 0;
+  transition: transform 0.5s ease;
+}
+
+.img-box img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease;
+}
+
+/* Efek Hover */
+.img-box:hover img {
+  transform: scale(1.1);
+}
+
+/* Judul */
+.judul h1 {
+  font-size: 50px;
+  color: #d6c4a3;
+  line-height: 1.2;
+  margin-bottom: 5px;
+}
+
+.judul p {
+  font-size: 18px;
+  color: #d6c4a3;
+  letter-spacing: 2px;
+}
